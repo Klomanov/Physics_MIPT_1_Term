@@ -1,7 +1,7 @@
 import math
 
 block1_mass = 1
-block2_mass = 100
+block2_mass = 1000000
 
 block1_size = 50
 block2_size = block1_size*(1+math.log10(block2_mass/block1_mass)/8)

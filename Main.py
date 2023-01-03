@@ -61,7 +61,7 @@ class App:
                 dx1 = (self.block1.size//2 + self.block2.size//2 + self.block1.x - self.block2.x)/(self.block2.vx/self.block1.vx - 1)
                 dx2 = self.block2.vx * dx1 / self.block1.vx
                 self.block1.x += dx1
-                self.block2.x += dx2
+                #self.block2.x += dx2
 
         elif self.block1.x + self.block1.vx >= self.block1.size//2 + c.line_size//2 + c.border_align:
             self.block1.x += self.block1.vx
